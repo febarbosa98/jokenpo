@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header">
+
+      <img src="images/logo.svg" alt="">
+      <div class="score">
+        <p>SCORE</p>
+        <h2 id="score">0</h2>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container1">
+
+    <div class="container">
+      <div class="item tesoura">
+        <button id="btn-2" class="tesoura" onclick="playGame(2)">
+
+          <img src="images/icon-scissors.svg" alt="">
+        </button>
+      </div>
+      <div class="item papel">
+        <button id="btn-1" class="papel" onclick="playGame(1)">
+
+          <img src="images/icon-paper.svg" alt="">
+        </button>
+      </div>
+      <div  class="item pedra ">
+        <button id="btn-0" class="pedra" onclick="playGame(0)">
+
+          <img src="images/icon-rock.svg" alt="">
+        </button>
+      </div>
+      
+    </div>
+    <div class=" triagulo">
+      <img src="images/bg-triangle.svg" alt="">
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>
