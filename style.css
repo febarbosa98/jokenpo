@@ -65,24 +65,31 @@ header {
 
 }
 .tesoura{
-    transform: translate(-50%, -20%)
+    bottom: 180px;
+    right: 250px;
 }
 .pedra{
     bottom: 180px;
-    left: 170px;
+    left: 140px;
 }
 .papel{
     bottom: -10px;
-    right: 120px;
+    right: 130px;
     
 }
 .tesoura  img{
     border: 20px solid var(--ScissorsGradient);
+    width: 170px;
+    height: 180px;
 }
 .pedra  img{
+    width: 170px;
+    height: 180px;
     border: 20px solid var(--Rock);
 }
 .papel  img{
+    height: 180px;
+    width: 170px;
     border: 20px solid var(--Paper);
 }
 .triagulo{
@@ -98,7 +105,7 @@ header {
     position: relative;
     width: 200px;
     height: 200px;
-    margin: 50px auto;
+    margin: 70px auto;
 }
 .item{
     position: absolute;
