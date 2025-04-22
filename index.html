@@ -14,10 +14,14 @@
   <header>
     <div class="header">
 
-      <img src="images/logo.svg" alt="">
+      <img src="images/logo.svg" alt="" width="auto" height="auto">
       <div class="score">
-        <p>SCORE</p>
+        <p>VOCÊ</p>
         <h2 id="score"></h2>
+      </div>
+      <div class="score">
+        <p>COMPUTADOR</p>
+        <h2 id="scoreComputer"></h2>
       </div>
     </div>
   </header>
@@ -26,31 +30,47 @@
     <div class="container1">
 
     <div class="container">
-      <div class="item tesoura">
-        <button id="btn-2" class="tesoura" onclick="playGame(2)">
+      <div class="item scissors">
+        <button id="btn-2" class="scissors" onclick="playGame(2)">
 
           <img src="images/icon-scissors.svg" alt="">
         </button>
       </div>
-      <div class="item papel">
-        <button id="btn-1" class="papel" onclick="playGame(1)">
+      <div class="item paper">
+        <button id="btn-1" class="paper" onclick="playGame(1)">
 
           <img src="images/icon-paper.svg" alt="">
         </button>
       </div>
-      <div  class="item pedra ">
-        <button id="btn-0" class="pedra" onclick="playGame(0)">
+      <div  class="item rock ">
+        <button id="btn-0" class="rock" onclick="playGame(0)">
 
           <img src="images/icon-rock.svg" alt="">
         </button>
       </div>
-      
-    </div>
-    <div class=" triagulo">
+          </div>
+    <div class="triagulo">
       <img src="images/bg-triangle.svg" alt="">
     </div>
 
     <div class="result" id="result"></div>
+  </div>
+
+
+  <!-- <div class="itemsResult">
+    <div class="itemResult papel">
+      <img src="images/icon-paper.svg" alt="${choices[playerChoice]}">
+      <p>Você</p>
+    </div>
+    <button class="jogarNovamente">Jogar navamente</button>
+    <div class="itemResult papel">
+      <img src="images/icon-lizard.svg"  alt="${choices[computerChoice]}">
+      <p>Computador</p>
+    </div>
+  </div>
+     -->
+
+    
   </div>
 
   </section>
